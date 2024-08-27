@@ -1,6 +1,7 @@
-# basic printing
+# basic printing command
 print("Hello, World!")
 
+# printing values
 # Integer
 x = 5
 print("x =", x)
