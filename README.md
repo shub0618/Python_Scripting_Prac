@@ -11,6 +11,7 @@ This repository contains a collection of Python practice exercises and standalon
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
