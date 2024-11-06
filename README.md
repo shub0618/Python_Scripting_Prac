@@ -33,6 +33,7 @@ The repository is organized as follows:
 ├── 1.Python_installation/
 ├── 2.About_JSON_and_YAML/
 ├── 3.Python_Prac/
+├── 4.OS_Tasks/
 └── README.md
 ```
 
