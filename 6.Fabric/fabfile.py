@@ -1,5 +1,4 @@
 from fabric.api import *
-env.user = 'devops'
 def greeting(msg):
   print("Good {}".format(msg))
 
