@@ -1,7 +1,7 @@
 # Python Practice and Scripts
 
 Welcome to the **Python Practice and Scripts** repository!
-This repository contains a collection of Python practice exercises and standalone scripts aimed at improving Python skills and solving various programming challenges.
+This repository contains a collection of Python exercises that I have worked on while learning and practicing.
 
 ## Table of Contents
 
@@ -33,13 +33,21 @@ The repository is organized as follows:
 ├── 1.Python_installation/
 ├── 2.About_JSON_and_YAML/
 ├── 3.Python_Prac/
-├── 4.OS_Tasks/
+├── 4.Modules/
+├── 5.OS_Tasks/
+├── 6.Fabric/
+├── 7.Vagrantfile_for_Prac
+└── LICENSE
 └── README.md
 ```
 
-- `Python_installation/`: Contains the PDF for installing python.
+- `Python_installation/`: Contains the PDF with instructions for installing python.
   - `About_JSON_and_YAML/`: Exercises on JSON and YAML.
   - `Python_Prac/`: Contains Common python syntax and examples.
+  - `Moduels/`: Contains the practice of python Moduels and calling those modules.
+  - `OS_Tasks/`: Contains python scripts that can be executed on linux OS.
+  - `Fabric/`: Contains fabfile that was used to run pyhton library fabric.
+  - `Vagrantfile_for_Prac/`: Contains the multi-OS Vagrantfile that was used in the Practice .
  
 ## Getting Started
 
