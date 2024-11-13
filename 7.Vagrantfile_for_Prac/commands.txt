@@ -1,0 +1,126 @@
+    1 clear
+    2  ls
+    3  mkdir /opt/pyscripts
+    4  ls
+    5  cd /opt/pyscripts/
+    6  ls
+    7  python
+    8  ls
+    9  mkdir ostasks
+   10  ls
+   11  python
+   12  python3
+   13  clear
+   14  ls
+   15  cd ostasks/
+   16  vim check-file.py
+   17  ls
+   18  chmod +x check-file.py
+   19  ls
+   20  vim check-file.py
+   21  ./check-file.py
+   22  vim check-file.py
+   23  ./check-file.py
+   24  cat check-file.py
+   25  touch /tmp/testfile.txt
+   26  ./check-file.py
+   27  clear
+   28  vim ostasks.py
+   29  python3
+   30  clear
+   31  ls
+   32  chmod +x ostasks.py
+   33  ls
+   34  vim ostasks
+   35  ls
+   36  rm ostasks
+   37  ls
+   38  vim ostasks.py
+   39  ls
+   40  ./ostasks.py
+   41  cat /etc/hostsname
+   42  cat /etc/passwd
+   43  clear
+   44  ls -l /opt/science_dir/
+   45  ls -ld /opt/science_dir/
+   46  id alpha
+   47  clear
+   48  ls
+   49  cd ..
+   50  ls
+   51  pip install fabric
+   52  wget https://bootstrap.pypa.io/get-pip.py
+   53  ls
+   54  apt install python
+   55  python get-pip.py
+   56  python3 get-pip.py
+   57  pip install fabric
+   58  pip uninstall fabric
+   59  clear
+   60  pip install 'fabric<2.0'
+   61  clear
+   62  mkdir fabric
+   63  ls
+   64  cd fabric/
+   65  vim fabfile.py
+   66  ls
+   67  fab -l
+   68  fab greeting:evening
+   69  vim fabfile.py
+   70  fab -l
+   71  vim fabfile.py
+   72  fab -l
+   73  vim fabfile.py
+   74  fab -l
+   76  fab -l
+   77  fab system_info
+   78  clear
+   79  vim fabfile.py
+   80  fab -l
+   81  fab remote_exec
+   82  clear
+   83  logout
+   84  clear
+   85  ssh-keygen
+   86  ssh-copy-id devops@192.168.10.3
+   87  ssh-copy-id devops@192.168.10.4
+   88  ssh devops@web01
+   89  clear
+   90  ssh devops@192.168.10.3
+   91  clear
+   92  cd opt
+   93  cd /opt
+   94  ls
+   95  cd /py
+   96  cd pyscripts/
+   97  ls
+   98  cd fabric/
+   99  ls
+  100  fab -l
+  101  fab -H 192.168.10.3 -u devops remote_exec
+  102  vim fabfile.py
+  103  fab -H 192.168.10.3 -u devops remote_exec
+  104  clear
+  105  ls
+  106  vim fabfile.py
+  107  fab -l
+  108  vim fabfile.py
+  109  fab -l
+  110  fab -H 192.168.10.3 -u devops web_setup: https://www.tooplate.com/zip-templates/2133_moso_interior.zip,2133_moso_interior
+  111  fab -H 192.168.10.3 -u devops web_setup:https://www.tooplate.com/zip-templates/2133_moso_interior.zip,2133_moso_interior
+  112  fab -H 192.168.10.3 192.168.10.4 -u devops web_setup:https://www.tooplate.com/zip-templates/2133_moso_interior.zip,2133_moso_interior
+  113  fab -H 192.168.10.3,192.168.10.4 -u devops web_setup:https://www.tooplate.com/zip-templates/2133_moso_interior.zip,2133_moso_interior
+  114  clear
+  115  cd
+  116  ls
+  117  pip install virtualenv
+  118  clear
+  119  virtualenv automation-env
+  120  ls
+  121  cd automation-env/
+  122  ls
+  123  source bin/activate
+  124  pip install jenkinsapi
+  125  clear
+  126  exit
+  127  history
