@@ -36,7 +36,8 @@ The repository is organized as follows:
 ├── 4.Modules/
 ├── 5.OS_Tasks/
 ├── 6.Fabric/
-├── 7.Vagrantfile_for_Prac
+├── 7.Vagrantfile_for_Prac/
+├── 8.boto3/
 └── LICENSE
 └── README.md
 ```
@@ -47,7 +48,8 @@ The repository is organized as follows:
   - `Moduels/`: Contains the practice of python Moduels and calling those modules.
   - `OS_Tasks/`: Contains python scripts that can be executed on linux OS.
   - `Fabric/`: Contains fabfile that was used to run pyhton library fabric.
-  - `Vagrantfile_for_Prac/`: Contains the multi-OS Vagrantfile that was used in the Practice .
+  - `Vagrantfile_for_Prac/`: Contains the multi-OS Vagrantfile that was used in the Practice.
+  - `boto3/`: Contains pyhton scripts using boto3.
  
 ## Getting Started
 
